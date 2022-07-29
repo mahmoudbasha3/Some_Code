@@ -60,13 +60,13 @@ Checking the only record that has a null value ( row 158 ) in the ‘Caffeine (m
 Method 3 was used.<br/>
 
 #### Remove duplicates 
-The data has no ID column so detecting duplicates imposed a challenge.  Two different methods were proposed to remove the duplicates :
+The data has no ID column so detecting duplicates imposed a challenge.  Two different methods were proposed to remove the duplicates :<br/>
 1 – use pandas function ’drop_duplicates()’ which marks two records as duplicates they are exactly identical in every field -> this method dropped zero records <br/>
 2 – use the combination of the three columns ('Beverage_category','Beverage','Beverage_prep' ) to act as and identifier for the record, as it was assumed that any drink that has the same exact values for the three columns should also have the same nutritional value, and if these nutritional values are not the same it is only a result from an error from data entry or data collection. -> this method dropped 90 record. 
 Method 2 was used<br/>
 
 #### Drop unnecessary Columns
-To measure column importance for dropping two methods were proposed:
+To measure column importance for dropping two methods were proposed:<br/>
 1 -  Removing features with low variance -> features with variances close to 1 were to be dropped ; the following features were observed to have variance close to 1 ( ' Calcium (% DV) ', ' Protein (g) ', ' Sodium (mg)', ' Sugars (g)', ' Total Fat (g)', 'Caffeine (mg)', 'Cholesterol (mg)', 'Iron (% DV) ', 'Saturated Fat (g)', 'Trans Fat (g) ',  'Vitamin A (% DV) ', 'Vitamin C (% DV)'  ).<br/>
 2 – Correlation heatmap -> features that are highly correlated can be assumed to be redundant and can therefore be dropped as they offer no new information. We can impose a certain threshold if the correlation value between two features exceeds it, one can be dropped.
 ![Correlation](./images/Capture.PNG)<br/>
