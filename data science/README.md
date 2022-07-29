@@ -1,6 +1,6 @@
 ## Mahmoud Basha 
-### mahmoudbuiltin@gmail.com
-### Data Science task
+mahmoudbuiltin@gmail.com
+Data Science task
 
 
 ## How to Run the code
