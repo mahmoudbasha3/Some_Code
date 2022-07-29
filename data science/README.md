@@ -22,7 +22,7 @@ To Run the notebook, I would suggest using google colab to avoid installing and 
 The upcoming steps are for windows machine, mac and linux will have very similar commands and steps.
 1 – You need to make sure you have a working python installation on your machine 
 2 – you can use conda to install the python packages or you can use pip as in google colab section
-3 – if you choose to use pip the commands you need to run in the command line prompt are as follows 
+3 – if you choose to use pip the commands you need to run in the command line prompt are as follows
  pip install pandas
 pip install -U scikit-learn
 pip install numpy
@@ -80,16 +80,16 @@ Two approaches were used in this part:
 #### Tableau
 ##### Q1. Which drink has the highest calories from the dataset?
 
-![DS_3_Q1_1](./directory_1/directory_2/.../directory_n/plot.png)
-![DS_3_Q1_2](./directory_1/directory_2/.../directory_n/plot.png)
+![DS_3_Q1_1](./images/DS_3_Q1_1.PNG)
+![DS_3_Q1_2](./images/DS_3_Q1_2.PNG)
 
 The drink that has the absolute highest calories is 'White Chocolate Mocha (Without Whipped Cream)'.
 
 But on average 'Banana Chocolate Smoothie' and 'Strawberry Banana Smoothie' are the highest in calories with 'Java Chip' and 'White Chocolate Mocha (Without Whipped Cream)' being the runner ups.
 
 ##### Q2. Highest Sugar Drink ?
-![DS_3_Q2_1](./directory_1/directory_2/.../directory_n/plot.png)
-![DS_3_Q2_2](./directory_1/directory_2/.../directory_n/plot.png)
+![DS_3_Q2_1](./images/DS_3_Q2_1.PNG)
+![DS_3_Q2_2](./images/DS_3_Q2_2.PNG)
 
 Drink that has absolute highest sugar is 'Java Chip (Without Whipped Cream)' with 'Caramel Apple Spice (Without Whipped Cream)' being very close.
 
@@ -97,9 +97,9 @@ On average 'Caramel Apple Spice (Without Whipped Cream)' is the highest in sugar
 
 #### Matplotlib 
 ##### Q1. Which drink has the highest calories from the dataset?
-![calories](./directory_1/directory_2/.../directory_n/plot.png)
+![calories](./images/calories.PNG)
 We observe that the results is consistent with the tableau results, 'White Chocolate Mocha (Without Whipped Cream)' have the absolute highest value in Calories.
 
 ##### Q2. Highest Sugar Drink ?
-![sugar](./directory_1/directory_2/.../directory_n/plot.png)
+![sugar](./images/sugar.PNG)
 We again observe that the drink with absolute max sugar is 'Java Chip (Without Whipped Cream)' which is consistent with tableau results.
