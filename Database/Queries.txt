@@ -1,0 +1,38 @@
+CREATE TABLE drinkMenuMY (
+        Beveragecategory TEXT,
+        Beverage TEXT,
+        Beverageprep TEXT,
+        Calories INTEGER,
+        TotalFat TEXT,
+        TransFat REAL,
+        SaturatedFat REAL,
+        Sodium INTEGER,
+        TotalCarbohydrates INTEGER,
+        Cholesterol INTEGER,
+        DietaryFibre INTEGER,
+        Sugars INTEGER,
+        Protein INTEGER
+        VitaminA TEXT,
+        VitaminC TEXT,
+        Calcium TEXT,
+        Iron TEXT,
+        Caffeine TEXT);
+
+SELECT 
+    Beverage
+FROM drinkMenuMY 
+WHERE Beverage = ( SELECT MAX(Beverage) FROM drinkMenuMY )
+
+
+SELECT
+Beveragecategory,
+  AVG(Calories) 
+FROM drinkMenuMY
+GROUP BY Beveragecategory
+
+SELECT 
+    Beverage
+FROM drinkMenuMY 
+WHERE Calories < (SELECT AVG(Calories) FROM drinkMenuMY)
+GROUP BY Beverage;
+
