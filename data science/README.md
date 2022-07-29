@@ -4,10 +4,12 @@
 
 ##### Table of Contents  
 [How to Run the code](#headers)    
+[Google Colab](##colab)   
 <a name="headers"/>
 ## How to Run the code
 There are two common methods that you can use to run the notebook. First method is to run on Cloud using google colab, second method is to run locally using Jupiter notebook.
 To Run the notebook, I would suggest using google colab to avoid installing and managing python packages on local machine.
+<a name="colab"/>
 ### Google Colab
 1 – upload the data set to google colab by dragging and dropping into the files tab on the left of the webpage. 
 2 – Install the required python packages on your virtual machine in google cloab by running the following commands
