@@ -2,6 +2,7 @@
 mahmoudbuiltin@gmail.com
 Data Science task<br/>
 Notebook is named Mahmoud_Basha1.ipynb 
+The pdf file is same as the README.
 
 ## How to Run the code
 There are two common methods that you can use to run the notebook. First method is to run on Cloud using google colab, second method is to run locally using Jupiter notebook.<br/>
